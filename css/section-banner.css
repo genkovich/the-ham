@@ -1,0 +1,54 @@
+.banner {
+    width: 100%;
+    background: url("../img/background/section-1.jpg") fixed center/cover no-repeat;
+    height: 100%;
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    padding-top: 380px;
+    padding-bottom: 240px;
+}
+
+.banner__text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.banner__header {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.banner__header span {
+    color: var(--green-color);
+}
+
+.banner__slogan {
+    font-size: 4.875rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.banner_call-to-action {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.banner__controls {
+    color: var(--white-color);
+    display: flex;
+    gap: 26px;
+}
+
+
+

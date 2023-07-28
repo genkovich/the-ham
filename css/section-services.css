@@ -1,0 +1,88 @@
+.services__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__header {
+    margin-top: 80px;
+    color: #4E4E4E;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 86px;
+}
+
+.services__header::after {
+    content: url("../img/doble-underline.svg");
+    display: block;
+    text-align: center;
+}
+
+.services__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.services__menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.services__menu-tab {
+    display: flex;
+    justify-content: center;
+    background-color: #F8FCFE;
+    color: #717171;
+    font-weight: 400;
+    padding: 18px 0;
+    border: 1px solid #EDEFEF;
+    border-left: none;
+    cursor: pointer;
+    transition: box-shadow 100ms ease-in-out;
+}
+
+.services__menu-tab:hover {
+    box-shadow: inset 0 0 0 2px var(--green-color);
+}
+
+.services__menu-tab:first-child {
+    border-left: 1px solid #EDEFEF;
+}
+
+.services__menu-tab.active {
+    position: relative;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.services__menu-tab.active::after {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(0, 70%);
+    rotate: 45deg;
+}
+
+.service__tab-content {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 16px;
+}
+
+.service__description {
+    color: #777;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8;
+}
+

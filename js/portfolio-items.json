@@ -1,0 +1,239 @@
+{
+    "portfolio": [
+        {
+            "title": "Fast Performance",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress9.jpg"
+        },
+        {
+            "title": "Dynamic Composition",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design1.jpg"
+        },
+        {
+            "title": "A/B Tested Design",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page5.jpg"
+        },
+        {
+            "title": "Bold Typography",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design4.jpg"
+        },
+        {
+            "title": "Advanced Plugins",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress2.jpg"
+        },
+        {
+            "title": "Fast Load Times",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design3.jpg"
+        },
+        {
+            "title": "Vibrant Palette",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design2.jpg"
+        },
+        {
+            "title": "Colorful Interface",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design7.jpg"
+        },
+        {
+            "title": "SEO Ready Design",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress6.jpg"
+        },
+        {
+            "title": "User-Centric Design",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design1.jpg"
+        },
+        {
+            "title": "High Performance",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page7.jpg"
+        },
+        {
+            "title": "Responsive Layout",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design4.jpg"
+        },
+        {
+            "title": "SEO Optimization",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design6.jpg"
+        },
+        {
+            "title": "Scalable Architecture",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design7.jpg"
+        },
+        {
+            "title": "Multilingual Support",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress7.jpg"
+        },
+        {
+            "title": "E-Commerce Integration",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress3.jpg"
+        },
+        {
+            "title": "User Engagement Tools",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress10.jpg"
+        },
+        {
+            "title": "Immersive Experience",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page2.jpg"
+        },
+        {
+            "title": "Futuristic Visions",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design10.jpg"
+        },
+        {
+            "title": "Mobile Optimized",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress8.jpg"
+        },
+        {
+            "title": "High Conversion Rate",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page4.jpg"
+        },
+        {
+            "title": "Clean UI/UX",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page6.jpg"
+        },
+        {
+            "title": "Pop Art Influence",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design9.jpg"
+        },
+        {
+            "title": "Intuitive Navigation",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design2.jpg"
+        },
+        {
+            "title": "Abstract Experiment",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design3.jpg"
+        },
+        {
+            "title": "Vintage Revival",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design8.jpg"
+        },
+        {
+            "title": "Geometric Harmony",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design6.jpg"
+        },
+        {
+            "title": "Security Features",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress5.jpg"
+        },
+        {
+            "title": "Nature Inspired",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design11.jpg"
+        },
+        {
+            "title": "Engaging Storytelling",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page3.jpg"
+        },
+        {
+            "title": "Minimalist Layout",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design5.jpg"
+        },
+        {
+            "title": "Fast and Reliable",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page1.jpg"
+        },
+        {
+            "title": "Modern Aesthetics",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design5.jpg"
+        },
+        {
+            "title": "Organic Designs",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design12.jpg"
+        },
+        {
+            "title": "Retina Ready Graphics",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress1.jpg"
+        },
+        {
+            "title": "Data Driven Layout",
+            "category": "web_design",
+            "url": "#",
+            "image_path": "section-web-design/web-design8.jpg"
+        },
+        {
+            "title": "Integrated Marketing Tools",
+            "category": "wordpress",
+            "url": "#",
+            "image_path": "section-wordpress/wordpress4.jpg"
+        },
+        {
+            "title": "Focused on User Experience",
+            "category": "landing_pages",
+            "url": "#",
+            "image_path": "section-landing-page/landing-page8.jpg"
+        },
+        {
+            "title": "Inspired by Modern Art",
+            "category": "graphic_design",
+            "url": "#",
+            "image_path": "section-graphic-design/graphic-design13.jpg"
+        }
+    ]
+}
+

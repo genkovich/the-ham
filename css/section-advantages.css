@@ -1,0 +1,38 @@
+.advantages {
+    background-color: var(--white-color);
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.advantage__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.advantages .advantage__item:nth-child(odd) {
+    background-color: #1C2A33;
+    color: var(--green-color);
+    gap: 48px;
+}
+
+.advantages .advantage__item:nth-child(even) {
+    background-color: var(--green-color);
+    color: var(--white-color);
+    gap: 58px;
+}
+
+.advantages .advantage__item:nth-child(odd) .advantage__item-icon {
+    fill: var(--green-color);
+    height: 96px;
+}
+
+.advantages .advantage__item:nth-child(even) .advantage__item-icon {
+    fill: var(--white-color);
+    height: 76px;
+}

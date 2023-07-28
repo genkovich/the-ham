@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@700&display=swap');
+@import "header.css";
+@import "section-banner.css";
+@import "section-advantages.css";
+@import "section-services.css";
+@import "section-purchase.css";
+@import "section-portfolio.css";
+
+:root {
+    --header-text-color: rgba(255, 255, 255, 0.60);
+    --green-color: #18CFAB;
+    --white-color: #FFFFFF;
+    --gray-color: #D4D4D4;
+    --primary-color: #00CBF6;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: calc(1160px + 40px);
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 16px 18px;
+    border-radius: 5px;
+    border-top: 2px solid var(--white-color);
+    transition: background-color 300ms ease-in-out;
+}
+
+.btn.btn-success {
+    background-color: var(--green-color);
+}
+
+.btn.btn-success:hover {
+    background-color: #14a88b;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+}
+
+.btn.btn-primary:hover {
+    background-color: #00a1c4;
+}
+
+
+
+
+
+
+
