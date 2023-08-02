@@ -39,6 +39,7 @@
     border-left: none;
     margin-bottom: 70px;
     min-width: 80px;
+    cursor: pointer;
 }
 
 .portfolio__filters-item:first-child {
@@ -51,6 +52,7 @@
 }
 
 .portfolio__gallery {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(4, max(284px));
     margin-bottom: 70px;
@@ -60,6 +62,7 @@
     height: 206px;
     width: 100%;
     position: relative;
+    transition: .6s ease opacity,.6s ease transform;
 }
 
 .portfolio__gallery-item__description {
@@ -119,3 +122,4 @@
     height: 18px;
     width: 20px;
 }
+
