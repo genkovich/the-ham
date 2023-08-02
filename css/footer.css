@@ -1,0 +1,16 @@
+.footer {
+    background-color: #22353F;
+}
+
+.footer__copyright {
+    width: 100%;
+    text-align: center;
+    padding: 48px 0;
+    color: #AEAEAE;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.footer__copyright a {
+    color: var(--green-color);
+}

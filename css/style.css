@@ -5,6 +5,10 @@
 @import "section-services.css";
 @import "section-purchase.css";
 @import "section-portfolio.css";
+@import "section-news.css";
+@import "section-feedback.css";
+@import "section-gallery.css";
+@import "footer.css";
 
 :root {
     --header-text-color: rgba(255, 255, 255, 0.60);

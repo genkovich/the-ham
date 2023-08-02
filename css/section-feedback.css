@@ -1,0 +1,132 @@
+.feedback {
+    position: relative;
+    background: black;
+}
+
+.feedback:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background: url("../img/background/section-3.jpg")  center/cover no-repeat;
+    z-index: 0;
+}
+
+.feedback__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.feedback__header {
+    color: var(--white-color);
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 98px 0 40px;
+}
+
+.feedback__header::after {
+    content: url("../img/doble-underline.svg");
+    display: block;
+    text-align: center;
+}
+
+.feedback__quotes-icon {
+    color: var(--green-color);
+    width: 44px;
+    height: 31px;
+    margin-bottom: 36px;
+}
+
+.feedback__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.feedback__item-text {
+    color: #BBB;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.feedback__author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.feedback__author-name {
+    color: var(--green-color);
+    text-transform: uppercase;
+}
+
+.feedback__author-position {
+    color: #BBB;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.feedback__author-photo {
+    width: 140px;
+    border-radius: 50%;
+    border: 10px solid rgba(31, 218, 181, 0.2);
+}
+
+.feedback__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 36px;
+    margin-bottom: 98px;
+}
+
+.feedback__controls svg {
+    display: flex;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    color: rgba(255, 255, 255, 0);
+    stroke: #BBBBBB;
+}
+
+.feedback__controls .control-arrow:hover svg {
+    cursor: pointer;
+    color: var(--green-color);
+    fill-opacity: 1;
+}
+
+.feedback__controls .control-right svg {
+    rotate: 180deg;
+}
+
+.feedback__controls .control-photos {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback__controls .control-photos .active {
+    margin-bottom: 16px;
+}
+
+.feedback__controls .control-photos img {
+    width: 60px;
+    border-radius: 50%;
+    border: 5px solid rgba(31, 218, 181, 0.2);
+}
