@@ -19,4 +19,40 @@
     text-align: center;
 }
 
+.gallery__grid {
+    margin-bottom: 52px;
+}
 
+.grid-sizer,
+.grid-item {
+    width: 31%;
+    margin-bottom: 2%;
+}
+.gutter-sizer { width: 2%; }
+.grid-item.two-pics {
+    display: flex;
+    column-gap: 3px;
+}
+.grid-item.two-pics img {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.gallery__controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.gallery__controls .btn {
+    border-top: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.gallery__controls .btn svg {
+    height: 18px;
+    width: 20px;
+}

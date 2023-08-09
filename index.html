@@ -91,32 +91,16 @@
                 <h2 class="services__header">Our Services</h2>
                 <div class="services__content">
                     <ul class="services__menu">
-                        <li class="services__menu-tab active">Web Design</li>
-                        <li class="services__menu-tab">Graphic Design</li>
-                        <li class="services__menu-tab">Online Support</li>
-                        <li class="services__menu-tab active">App Design</li>
-                        <li class="services__menu-tab">Online Marketing</li>
-                        <li class="services__menu-tab">Seo Service</li>
+                        <li class="services__menu-tab active" data-tab="web-design">Web Design</li>
+                        <li class="services__menu-tab" data-tab="graphic-design">Graphic Design</li>
+                        <li class="services__menu-tab" data-tab="online-support">Online Support</li>
+                        <li class="services__menu-tab" data-tab="app-design">App Design</li>
+                        <li class="services__menu-tab" data-tab="online-marketing">Online Marketing</li>
+                        <li class="services__menu-tab" data-tab="seo-service">Seo Service</li>
                     </ul>
                     <div class="service__tab-content">
-                        <img class="service__image" src="img/services/web-design.png" alt="web-design">
-                        <p class="service__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut
-                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui
-                            officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-                            adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint
-                            occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Deserunt
-                            mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed
-                            do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
-                            cupidatat
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <img class="service__image" src="" alt="">
+                        <p class="service__description"></p>
                     </div>
                 </div>
             </div>
@@ -346,16 +330,20 @@
                     </div>
                     <div class="control-photos">
                         <a href="#">
-                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg" alt="feedback-item-photo" >
+                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg"
+                                 alt="feedback-item-photo">
                         </a>
                         <a href="#">
-                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg" alt="feedback-item-photo" >
+                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg"
+                                 alt="feedback-item-photo">
                         </a>
                         <a href="#" class="active">
-                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg" alt="feedback-item-photo" >
+                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg"
+                                 alt="feedback-item-photo">
                         </a>
                         <a href="#">
-                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg" alt="feedback-item-photo" >
+                            <img class="control-photo-item" src="./img/feedback/saltynaut.jpg"
+                                 alt="feedback-item-photo">
                         </a>
                     </div>
                     <div class="control-right">
@@ -375,13 +363,29 @@
         <div class="container">
             <div class="gallery__wrapper">
                 <h2 class="gallery__header">Gallery of best images</h2>
-                <div class="grid">
-                    <div><img src="https://source.unsplash.com/t3DHojIo-08" alt=""></div>
-                    <div><img src="https://source.unsplash.com/Imc-IoZDMXc" alt=""></div>
-                    <div><img src="https://source.unsplash.com/SOZWHqeXcPQ" alt=""></div>
-                    <div><img src="https://source.unsplash.com/bkdzvgBB7rQ" alt=""></div>
-                    <div><img src="https://source.unsplash.com/Aruugw_rJCM" alt=""></div>
-                </div>
+            </div>
+            <div class="gallery__grid">
+                <div class="grid-sizer"></div>
+                <div class="gutter-sizer"></div>
+                <img class="grid-item" src="./img/gallery/1.jpeg" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/2.jpeg" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/4.webp" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/5.webp" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/6.webp" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/7.jpeg" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/8.webp" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/9.jpeg" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/10.jpeg" alt="gallery-item">
+                <img class="grid-item" src="./img/gallery/11.jpeg" alt="gallery-item">
+            </div>
+
+            <div class="gallery__controls">
+                <a href="#" class="btn btn-success">
+                    <svg>
+                        <use xlink:href="img/icon-sprite.svg#plus"></use>
+                    </svg>
+                    Load more
+                </a>
             </div>
         </div>
     </section>
@@ -393,8 +397,10 @@
         </p>
     </div>
 </footer>
-
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
 <script src="./js/script.js"></script>
+<script src="./js/services.js"></script>
 <script src="./js/portfolio.js"></script>
 </body>
 </html>
